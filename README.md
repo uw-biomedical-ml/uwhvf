@@ -1,4 +1,4 @@
-# Title: Humphrey Visual Field database 
+# Title: A real-world, open source dataset of Humphrey Visual Field from the University of Washington
 
 
 —————————————————————————————————————————
