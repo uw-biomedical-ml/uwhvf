@@ -160,7 +160,7 @@ No.
 The dataset is publicly available.
 
 ## How will the dataset be distributed (e.g., tarball on website, API, GitHub)?
-Github [title](https://github.com/uw-biomedical-ml/uwhvf) 
+[Github](https://github.com/uw-biomedical-ml/uwhvf) 
 
 ## When will the dataset be distributed?
 At the time of submission of the dataset paper
@@ -181,7 +181,7 @@ No
 The dataset will be hosted on GitHub
 
 ## How can the owner/curator/manager of the dataset be contacted (e.g., email address)?
-[title](http://comp.ophthalmology.edu)
+[Contact](http://comp.ophthalmology.edu)
 
 ## Is there an erratum? 
 No
