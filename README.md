@@ -1,4 +1,7 @@
-# A real-world, open source dataset of Humphrey Visual Field from the University of Washington
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+
+# UWHVF: A real-world, open source dataset of Humphrey Visual Field from the University of Washington
 
 
 —————————————————————————————————————————
