@@ -1,6 +1,8 @@
 # CSV README
 ——————————————————————————————————————————
+
 Filename: VF_Data.csv
+
 Description: same dataset as in the JSON file. Columns are as follows
 	- PatID: patient identifier
 	- Gender: gender of the patient
