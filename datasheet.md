@@ -27,7 +27,7 @@ Humphrey Visual Field data consisting of perimetry sensitivities
 28,943
 
 
-## What data does each instance consist of?** 
+## What data does each instance consist of? 
 
 Standard Automated Microperimetry sensitivity value (dB) 
  
