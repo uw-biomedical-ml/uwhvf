@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![JSON Schema](https://img.shields.io/badge/JSON%20Schema-valid-green)](https://json-schema.org/)
-[![Datasheet](https://img.shields.io/badge/Datasheet-available-green)](https://arxiv.org/abs/1803.09010)
+[![JSON Schema](https://img.shields.io/badge/JSON%20Schema-valid-green)](https://github.com/uw-biomedical-ml/uwhvf/blob/master/schema.json)
+[![Datasheet](https://img.shields.io/badge/Datasheet-available-green)](https://github.com/uw-biomedical-ml/uwhvf/blob/master/datasheet.md)
 
 
 # UWHVF: A real-world, open source dataset of Humphrey Visual Field from the University of Washington
@@ -16,9 +16,9 @@
 
 **Description:** Dataset of 26,353 HVFs from 3895 patients and 7463 eyes. Data-structure consists of nested dictionaries in JSON file format. 
 
-**Schema:** JSON Schema [available](https://github.com/uw-biomedical-ml/uwhvf/blob/master/schema.json)
+**Schema:** [JSON Schema](https://json-schema.org/) is available and [describes the dataset structure.](https://github.com/uw-biomedical-ml/uwhvf/blob/master/schema.json) 
 
-**Datasheet for datasets:** As recommended by [Gebru et al.](https://arxiv.org/abs/1803.09010), we have provided a datasheet.
+**Datasheet for datasets:** As recommended by [Gebru et al.](https://arxiv.org/abs/1803.09010), we have provided a [structured datasheet](https://github.com/uw-biomedical-ml/uwhvf/blob/master/datasheet.md).
 
 # Example Visual Fields
 ![Example HVFs](https://github.com/uw-biomedical-ml/uwhvf/raw/master/example.png)
