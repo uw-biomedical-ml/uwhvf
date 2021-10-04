@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![JSON Schema](https://img.shields.io/badge/JSON%20Schema-valid-green)](https://json-schema.org/)
-[![Datasheet](https://img.shields.io/badge/Datasheet-available-yellowgreen)](https://arxiv.org/abs/1803.09010)
+[![Datasheet](https://img.shields.io/badge/Datasheet-available-green)](https://arxiv.org/abs/1803.09010)
 
 
 # UWHVF: A real-world, open source dataset of Humphrey Visual Field from the University of Washington
