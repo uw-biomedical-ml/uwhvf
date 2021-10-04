@@ -53,3 +53,7 @@ print(np.array(dat['data']['647']['R'][0]['hvf']))
 #  [100.   100.   100.    28.88  27.3   26.82  28.18 100.   100.  ]]
 
 ```
+
+#Citation
+
+Will update with citation once manuscript is accepted.
