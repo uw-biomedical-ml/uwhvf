@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/uw-biomedical-ml/uwhvf/schema.json",
+  "title": "UWHVF",
+  "description": "Open source dataset of more than 25 thousand Humphrey Visual Fields (HVF) from routine clinical care",
+  "type": "object",
+  "properties": {
+    "pts": {
+      "description": "The total number of unique patients in this dataset",
+      "type": "integer"
+    },
+    "eyes": {
+      "description": "The total number of unique eyes in this dataset",
+      "type": "integer"
+    },
+    "hvfs": {
+      "description": "The total number of unique HVFs in this dataset",
+      "type": "integer"
+    },
+    "coords": {
+      "description": "Visual field coordinate information for the sequence data",
+      "type": "array",
+      "items": {
+        "type":"object",
+        "properties": {
+          "x": {
+            "description": "horizontal position of testing area",
+            "type": "integer"
+          },
+          "y": {
+            "description": "vertical position of testing area",
+            "type": "integer"
+          },
+          "index": {
+            "description": "index in sequence array (zero indexed)",
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "data": {
+      "description": "Full dataset by patient as the object key",
+      "type": "object",
+      "patternProperties": {
+        "^[0-9]+$": {
+          "type": "object",
+          "description": "All available data for a given patient",
+          "properties": {
+            "gender": {
+              "description": "M for male, F for Female",
+              "type": "string"
+            },
+            "year": {
+              "description": "Year of first visual field captured",
+              "type": "integer"
+            },
+            "patternProperties": {
+              "^R|L$": {
+                "description": "HVF data for the right eye (R) and left eye (L)",
+                "type": "array",
+                "items": {
+                  "type":"object",
+                  "properties": {
+                    "age": {
+                      "description": "Floating point age at date of HVF",
+                      "type": "float"
+                    },
+                    "hvf":{
+                      "description": "2D representation of HVF with 100.0 as untested values",
+                      "type": "array",
+                      "items": {
+                        "type": "array",
+                        "items": {
+                          "type": "float",
+                          "description": "sensitivity as float value with 100.0 as untested"
+                        }
+                      }
+                    },
+                    "hvf_seq":{
+                      "description": "HVF as a sequence using 'coords' layout",
+                      "type": "array",
+                      "items": {
+                          "type": "float",
+                          "description": "sensitivity as float value"
+                        }
+                    },
+                    "td":{
+                      "description": "2D representation of total deviation with 100.0 as untested values",
+                      "type": "array",
+                      "items": {
+                        "type": "array",
+                        "items": {
+                          "type": "float",
+                          "description": "sensitivity as float value with 100.0 as untested"
+                        }
+                      }
+                    },
+                    "td_seq":{
+                      "description": "total deviation as a sequence using 'coords' layout",
+                      "type": "array",
+                      "items": {
+                          "type": "float",
+                          "description": "sensitivity as float value"
+                        }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
