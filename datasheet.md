@@ -4,9 +4,11 @@
 
 Meaningful data of sufficient scale is required to adequately train the AI for its intended purpose, and significant work is required to prepare these datasets. This open access visual field data set curated from a single academic institution is the first of its size to be published. We aim to lower the barrier to entry for the scientific community and increase accessibility for visual field and machine learning researchers. 
 
+
 **Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?**
 
 University of Washington
+
 
 **Who funded the creation of the dataset?**
 
@@ -19,37 +21,46 @@ NIH/NEI K23EY029246 (Bethesda, MD), NIH/NIA R01AG060942 (Bethesda, MD), Latham V
 
 Humphrey Visual Field data consisting of perimetry sensitivities 
 
+
 **How many instances are there in total (of each type, if appropriate)?**
 
 28,943
+
 
 **What data does each instance consist of?** 
 
 Standard Automated Microperimetry sensitivity value (dB) 
  
+ 
 **Is there a label or target associated with each instance?**
 
 No 
+
 
 **Is any information missing from individual instances?**
 
 No
 
+
 **Are there recommended data splits (e.g., training, development/validation, testing)?**
 
 No
+
 
 **Are there any errors, sources of noise, or redundancies in the dataset?** 
 
 Duplicated HVFs (exact same sensitivities at each location with the same age and same eye) were identified and merged together
 
+
 **Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)?**
 
 This dataset is self-contained. 
 
+
 **Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?** 
 
 The dataset was extracted under an IRB approved protocol and then all protected health information was destroyed to create a deidentified dataset for public release. 
+
 
 **Does the dataset relate to people?**
 
