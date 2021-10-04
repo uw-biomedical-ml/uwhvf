@@ -16,7 +16,7 @@
 
 **Description:** Dataset of 26,353 HVFs from 3895 patients and 7463 eyes. Data-structure consists of nested dictionaries in JSON file format. 
 
-**Schema:** [JSON Schema](https://json-schema.org/) is available and [describes the dataset structure.](https://github.com/uw-biomedical-ml/uwhvf/blob/master/schema.json) 
+**Schema:** [JSON Schema](https://json-schema.org/) is available and [describes the dataset structure and data dictionary.](https://github.com/uw-biomedical-ml/uwhvf/blob/master/schema.json) 
 
 **Datasheet for datasets:** As recommended by [Gebru et al.](https://arxiv.org/abs/1803.09010), we have provided a [structured datasheet](https://github.com/uw-biomedical-ml/uwhvf/blob/master/datasheet.md).
 
