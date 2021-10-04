@@ -17,4 +17,5 @@
 
 **Schema:** JSON Schema [available](https://github.com/uw-biomedical-ml/uwhvf/blob/master/schema.json)
 
-
+![Example HVFs](https://github.com/uw-biomedical-ml/uwhvf/raw/master/example.png)
+Example HVFs with the raw float values extracted in the left column, the rounded values in the middle, and the HVF printout on the right column.
