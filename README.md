@@ -3,7 +3,7 @@
 [![Datasheet](https://img.shields.io/badge/Datasheet-available-green)](https://github.com/uw-biomedical-ml/uwhvf/blob/master/datasheet.md)
 
 
-# UWHVF: A real-world, open source dataset of Humphrey Visual Field from the University of Washington
+# UWHVF: A real-world, open source dataset of Humphrey Visual Fields (HVF) from the University of Washington
 
 
 **Dataset Description:** JSON file containing 26,353 Humphrey Visual Field (HVF) tests from 3895 patients and 7463 eyes. This file contains sensitivity values, TD values, age, laterality (left or right eye) and gender when specified. Sensitivity and TD values are stored both in long format (as a vector) and provided as an 8 x 9 matrix. The latter is meant to preserve the original spatial organization of the data, which is particularly useful in spatial-aware processing often employed in machine learning. All visual field data are stored as a right eye. Empty matrix cells are filled with a fixed value (100).
