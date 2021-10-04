@@ -4,21 +4,21 @@
 Filename: VF_Data.csv
 
 Description: same dataset as in the JSON file. Columns are as follows
-	- PatID: patient identifier
-	- Gender: gender of the patient
-	- Eye: laterality (Right/Left)
-	- FieldN: sequential test number for each eye (time ordered)
-	- Age: patient age at each test (years)
-	- Time_from_Baseline: calculated as Age (at test N) - Age (at test 1)
-	- MS: Mean Sensitivity
-	- MS_Cluster1 to 6: MS for each cluster
-	- MTD: Mean Total Deviation
-	- PSD: Pattern Standard Deviation
-	- MTD_Cluster1 to 6: MTD for each cluster
-	- GH: General Height (7th highest TD value)
-	- Sens_1 to 54: Sensitivity values for each location
-	- TD_1 to 54: Total Deviation values for each location (missing for blind spot locations)
-	- PD_1 to 54: Pattern Deviation values for each location (missing for blind spot locations)
+- PatID: patient identifier
+- Gender: gender of the patient
+- Eye: laterality (Right/Left)
+- FieldN: sequential test number for each eye (time ordered)
+- Age: patient age at each test (years)
+- Time_from_Baseline: calculated as Age (at test N) - Age (at test 1)
+- MS: Mean Sensitivity
+- MS_Cluster1 to 6: MS for each cluster
+- MTD: Mean Total Deviation
+- PSD: Pattern Standard Deviation
+- MTD_Cluster1 to 6: MTD for each cluster
+- GH: General Height (7th highest TD value)
+- Sens_1 to 54: Sensitivity values for each location
+- TD_1 to 54: Total Deviation values for each location (missing for blind spot locations)
+- PD_1 to 54: Pattern Deviation values for each location (missing for blind spot locations)
 
 Filename: Series_Summary.csv
 Description: Summary data for each eye (test series). Columns are as follows
