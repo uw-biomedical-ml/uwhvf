@@ -181,7 +181,7 @@ No
 The dataset will be hosted on GitHub
 
 ## How can the owner/curator/manager of the dataset be contacted (e.g., email address)?
-[Contact](http://comp.ophthalmology.edu)
+[Contact](https://comp.ophthalmology.uw.edu)
 
 ## Is there an erratum? 
 No
