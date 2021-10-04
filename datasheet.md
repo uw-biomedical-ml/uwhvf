@@ -1,16 +1,16 @@
-*Motivation*
+# Motivation
 
-**For what purpose was the dataset created?**
+## For what purpose was the dataset created?
 
 Meaningful data of sufficient scale is required to adequately train the AI for its intended purpose, and significant work is required to prepare these datasets. This open access visual field data set curated from a single academic institution is the first of its size to be published. We aim to lower the barrier to entry for the scientific community and increase accessibility for visual field and machine learning researchers. 
 
 
-**Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?**
+## Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?
 
 University of Washington
 
 
-**Who funded the creation of the dataset?**
+## Who funded the creation of the dataset?
 
 NIH/NEI K23EY029246 (Bethesda, MD), NIH/NIA R01AG060942 (Bethesda, MD), Latham Vision Research Innovation Award (Seattle, WA), and an unrestricted grant from Research to Prevent Blindness (New York, NY).
 
