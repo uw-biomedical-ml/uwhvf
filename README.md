@@ -5,6 +5,10 @@
 
 # UWHVF: A real-world, open source dataset of Humphrey Visual Fields (HVF) from the University of Washington
 
+If you use this dataset, please cite:
+
+`Giovanni Montesano, Andrew Chen, Randy Lu, Cecilia S. Lee, Aaron Y. Lee; UWHVF: A Real-World, Open Source Dataset of Perimetry Tests From the Humphrey Field Analyzer at the University of Washington. Trans. Vis. Sci. Tech. 2022;11(1):2. doi: https://doi.org/10.1167/tvst.11.1.1.`
+
 
 **Dataset Description:** JSON file containing 28,943 Humphrey Visual Field (HVF) tests from 3,871 patients and 7,428 eyes. This file contains sensitivity values, TD values, age, laterality (left or right eye) and gender when specified. Sensitivity and TD values are stored both in long format (as a vector) and provided as an 8 x 9 matrix. The latter is meant to preserve the original spatial organization of the data, which is particularly useful in spatial-aware processing often employed in machine learning. All visual field data are stored as a right eye. Empty matrix cells are filled with a fixed value (100).
 
@@ -64,6 +68,3 @@ print(np.array(dat['data']['647']['R'][0]['td']))
 #  [100.   100.   100.    -2.46  -4.54  -5.23  -3.82 100.   100.  ]]
 ```
 
-# Citation
-
-Will update with citation once manuscript is accepted.
